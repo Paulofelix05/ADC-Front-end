@@ -1,0 +1,113 @@
+/* Seção Por que a ADC */
+.why-adc-section {
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg?t=st=1731544360~exp=1731547960~hmac=0e6329c0c97bdce882408f7aef2c00754e1a860417ff3dafa038d4c5fcef6c0e&w=1060');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 20px;
+  text-align: center;
+
+}
+
+/* Contêiner do título com fundo azul que ocupa toda a largura */
+.title-container {
+  font-family: 'Poppins';
+  font-weight: 700;
+  width: 100vw; /* Largura total da viewport */
+  left: 50%;
+  height: 25vh;
+  transform: translateX(-50%); /* Centraliza em relação à tela */
+  background-color: #4682B4; /* Fundo azul */
+  padding: 50px 0; /* Aumentado o padding para separar do conteúdo */
+  position: relative;
+  margin-bottom: 40px; /* Espaço extra entre o título e a primeira caixa */
+  
+}
+
+/* Estilo do título */
+.title-container h2 {
+  margin-top: 23px !important;
+  font-size: 2.8em; /* Aumentado o tamanho da fonte */
+  color: #ffffff;
+  font-weight: 600; /* Semibold */
+  margin: 0;
+}
+
+/* Container dos cartões */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Aumentado o espaço entre as caixas */
+  align-items: center;
+}
+
+/* Estilo dos cartões com tamanho aumentado */
+.why-card {
+  font-family: 'Poppins';
+  font-weight: 700;
+  max-width: 700px; /* Aumentado o tamanho das caixas */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+  font-weight: 600; /* Semibold */
+  font-size: 1.2em; /* Aumentado o tamanho do texto */
+}
+
+/* Primeira Caixa: Fundo Azul e alinhada à esquerda */
+.why-card.blue {
+  background-color: #4682B4;
+  padding: 50px;
+  color: white;
+  align-self: flex-start;
+}
+
+/* Contêiner para a Segunda Caixa com Fundo Azul que ocupa toda a largura da tela */
+.why-card-container {
+  position: relative;
+  width: 100vw; /* Ocupa toda a largura da tela */
+  left: 50%; /* Posiciona para centralizar em relação à viewport */
+  transform: translateX(-50%); /* Centraliza o contêiner */
+  background-color: #4682B4; /* Fundo azul atrás da caixa */
+  padding: 30px 0; /* Espaçamento vertical para o fundo azul */
+  display: flex; 
+  justify-content: flex-end; /* Alinha a caixa branca à direita */
+}
+
+/* Segunda Caixa à direita: contêiner azul */
+.why-card.white {
+  background-color: #ffffff;
+  color: #4682B4;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: none;
+  max-width: 700px; /* Limita a largura da caixa branca */
+  margin-right: 20px; /* Espaçamento à direita dentro do contêiner azul */
+  font-weight: 600; /* Semibold */
+  font-size: 1.2em; /* Aumentado o tamanho do texto */
+}
+
+/* Terceira Caixa */
+.why-card.blue-alt {
+  background-color: #4682B4;
+  padding: 50px;
+  color: white;
+  align-self: flex-start;
+}
+
+/* Centralizar e ajustar o estilo dos títulos dentro das caixas */
+.why-card h3 {
+  text-align: center; /* Centraliza o título */
+  font-weight: 600; /* Semibold */
+  font-size: 1.5em; /* Aumento sutil no tamanho do título */
+  margin: -10px 0 10px 0;
+}
+
+/* Ajusta o espaçamento e o tamanho do texto dentro das caixas */
+.why-card p {
+  margin-top: 15px; /* Aumenta o espaçamento entre o título e o texto */
+  font-size: 1.1em; /* Aumento sutil no tamanho do texto */
+  line-height: 1.5; /* Ajusta o espaçamento entre as linhas para melhor legibilidade */
+}

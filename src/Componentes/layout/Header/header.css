@@ -1,0 +1,91 @@
+.header {
+    background-color: #4682B4;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    height: 15vh;
+  }
+  
+  
+  /* Contêiner para centralizar o menu de navegação */
+  .nav-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Centraliza o menu no meio */
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  
+  .nav-link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700 !important;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px !important;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .create-acount-btn {
+    background-color: white !important;
+    color: #4682B4 !important;
+    border: 2px solid #4682B4 !important;
+  }
+  .create-acount-btn:hover {
+    background-color: #38658b !important;
+    color: #FFD700 !important;
+  }
+  
+  .enter-btn {
+    background-color: #0000CD !important;
+    color: #ffffff !important;
+  
+  }
+  
+  .enter-btn:hover {
+    background-color: #000066 !important;
+    color: #FFD700 !important;
+  }
+  
+  .create-acount-btn, .enter-btn {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border-radius: 25px;
+    font-weight: 700;
+  }
+  
+  .create-acount-btn, .enter-btn {
+    width: 150px; 
+    height: 50px; 
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+  }
+  

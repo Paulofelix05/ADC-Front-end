@@ -1,0 +1,309 @@
+.services-container {
+  width: 100%;
+  background-color: #4682B4;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.services-description {
+  font-size: 1.2rem;
+  color: #d1e5f8;
+  margin-bottom: 40px;
+}
+
+/* Cabeçalho acima dos cartões */
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #356bac, #2a4773); /* Fundo gradiente */
+  padding: 50px 20px;
+  border-radius: 15px 15px 0 0;
+}
+
+.services-main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.services-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.primary-button:hover {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #000;
+}
+
+.secondary-button:hover {
+  background-color: #468ec9;
+  border-color: #468ec9;
+  color: #fff;
+}
+
+.services-subtitle {
+  font-size: 1.2rem;
+  color: #d1e5f8;
+  margin-top: 10px;
+}
+
+/* imagens */
+.service-card {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Espaçamento entre os cartões */
+}
+
+.service-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Overlay escuro */
+.service-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Cor preta com 80% de opacidade */
+  z-index: 1; /* Coloque a camada acima da imagem */
+}
+
+/* conteúdo centralizado no overlay */
+.service-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 2; /* Coloque o conteúdo acima do overlay */
+  display: flex;
+  flex-direction: column; /* Para empilhar texto e botão */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 15px; /* Espaçamento entre o texto e o botão */
+}
+
+/* centraliza o botão dentro do cartão */
+.service-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #ffcc00;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+/* espaçamento entre os cartões */
+.services-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #ffcc00;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+/************************ Depoimentos *******************/
+
+/* Título de depoimentos */
+.testimonials-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Container de depoimentos */
+.testimonials-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-color: #4682B4;
+  padding: 40px 20px;
+  gap: 20px;
+  position: relative;
+}
+
+/* Container para setas e card */
+.testimonials-content {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+ 
+}
+
+/* Setas */
+.testimonials-arrow {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  border: 6px solid white; 
+  background-color: #4682B4; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  font-size: 2rem; 
+  font-weight: 900;
+  font-weight: bold; 
+  cursor: pointer; 
+  line-height: 1; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Seta esquerda */
+.testimonials-arrow-left {
+  left: -80px; /* a seta à esquerda do card */
+  margin-right: 100px; /* Espaço entre a seta card */
+}
+
+/* Seta direita */
+.testimonials-arrow-right {
+  right: -80px; /* a seta à direita do card */
+  margin-left: 100px; /* Espaço entre a seta */
+}
+
+.testimonials-arrow:hover {
+  transform: scale(1.1); /* Zoom */
+  background-color: #5a9bd4;
+}
+
+.testimonials-arrow:active {
+  transform: scale(0.95); /* Reduz clique */
+}
+
+/* Card de depoimento */
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  width: 600px; /* fixa */
+  height: 350px; /* fixa */
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: flex-start; /* elementos à esquerda */
+  text-align: left; /*  texto à esquerda */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  gap: 20px; 
+}
+
+/* Feedback */
+.testimonial-feedback {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  
+}
+
+/* Autor do depoimento */
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.testimonial-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estrelas */
+.testimonial-rating {
+  font-size: 1.5rem; /* tamanho das estrelas */
+  color: #ffcc00;
+  align-self: flex-end; /* estrelas à direita */
+}
+
+/* Linha decorativa */
+.testimonials-line {
+  width: 80%; /* largura da linha */
+  height: 18px; /* altura da linha */
+  background-color: #fff; 
+  border-radius: 10px; /*bordas arredondadas */
+  margin: 0 auto 20px; 
+}
+
+

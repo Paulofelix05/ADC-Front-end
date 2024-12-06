@@ -1,0 +1,65 @@
+.hero-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+/* Título */
+.hero-section h1 {
+  font-size: 4.0em;
+  color: #4682B4;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+/* Botões */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hero-btn {
+  width: 180px;
+  height: 50px; 
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #4682B4;
+}
+
+.primary-btn {
+  background-color: #ffffff;
+  color: #4682B4;
+}
+
+.secondary-btn {
+  background-color: #ffffff;
+  color: #4682B4;
+}
+
+.primary-btn:hover, .secondary-btn:hover {
+  background-color: #4682B4;
+  color: #ffffff;
+}
+
+/* Fundo com ícones de cadeado */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(); /* Coloque o URL da imagem aqui */
+  background-repeat: repeat;
+  background-size: 70px 70px;
+  opacity: 0.1;
+  z-index: -1;
+}

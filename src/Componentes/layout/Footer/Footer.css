@@ -1,0 +1,81 @@
+footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 40px;
+  font-size: 0.9em;
+  font-family: 'Poppins';
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 30px; /* Aumenta o espaço entre os itens */
+}
+
+.footer-nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px; /* Espaço entre os ícones */
+}
+
+.footer-socials a {
+  color: #000000;
+  font-size: 1.5em; /* Tamanho dos ícones */
+  text-decoration: none;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #000000;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px; /* Espaço entre os links de política e termos */
+}
+
+.footer-links a {
+  color: #1e3a5f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-logo {
+  height: 160px; /* Ajuste a altura da logo */
+  width: auto; /* Mantém as proporções */
+  margin-right: 20px; /* Espaçamento entre a logo e os links */
+}
+
+.footer-top {
+  display: flex;
+  align-items: center; /* Alinha a logo e o menu na vertical */
+  justify-content: space-between; /* Espaça os itens */
+}
